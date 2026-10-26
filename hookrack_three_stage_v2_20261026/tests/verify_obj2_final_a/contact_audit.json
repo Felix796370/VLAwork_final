@@ -1,0 +1,173 @@
+{
+  "accepted": true,
+  "sampled_frames": 2311,
+  "sampling_hz": 20,
+  "include_zero_force_contacts": true,
+  "max_penetration_m": 0.0007828246332305338,
+  "worst_pairs": [
+    {
+      "pair": "gripper0_finger2_pad_collision | hook_obj4_1_beam_collision_45",
+      "penetration_m": 0.0007828246332305338,
+      "step": 525
+    },
+    {
+      "pair": "gripper0_finger2_collision | hook_obj4_1_beam_collision_45",
+      "penetration_m": 0.0003382630177251461,
+      "step": 525
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_right_tooth_collision_008",
+      "penetration_m": 0.00029157094093570327,
+      "step": 1906
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_left_tooth_collision_006",
+      "penetration_m": 0.00028395731572440587,
+      "step": 1968
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_right_tooth_collision_006",
+      "penetration_m": 0.00016219564208261287,
+      "step": 1968
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_left_tooth_collision_010",
+      "penetration_m": 0.00015959298662731897,
+      "step": 1905
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_right_tooth_collision_007",
+      "penetration_m": 0.00015403600524603386,
+      "step": 1906
+    },
+    {
+      "pair": "hook_obj4_1_beam_collision_45 | hook_shell1_1_target_left_tooth_collision_006",
+      "penetration_m": 0.00014797510208433895,
+      "step": 1906
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | table_collision",
+      "penetration_m": 0.00012926504434185301,
+      "step": 530
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj4_1_beam_collision_46",
+      "penetration_m": 0.00012323237787467098,
+      "step": 525
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_left_tooth_collision_007",
+      "penetration_m": 0.00012134219539567885,
+      "step": 1911
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj4_1_beam_collision_52",
+      "penetration_m": 0.00011815359744572353,
+      "step": 525
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj4_1_beam_collision_51",
+      "penetration_m": 0.00011224855739131861,
+      "step": 524
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj4_1_beam_collision_50",
+      "penetration_m": 0.00010922423504333679,
+      "step": 524
+    },
+    {
+      "pair": "hook_obj1_1_cap_collision | table_collision",
+      "penetration_m": 0.00010762800217922752,
+      "step": 41
+    },
+    {
+      "pair": "hook_obj4_1_beam_collision_46 | hook_shell1_1_target_right_tooth_collision_021",
+      "penetration_m": 0.00010458159446931813,
+      "step": 1700
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_left_tooth_collision_009",
+      "penetration_m": 0.00010211744635239507,
+      "step": 1905
+    },
+    {
+      "pair": "hook_obj2_1_cap_collision | table_collision",
+      "penetration_m": 9.421280730181891e-05,
+      "step": 21
+    },
+    {
+      "pair": "hook_shell1_1_cell_14_collision_006 | preset_1_1_beam_collision_45",
+      "penetration_m": 8.537406599034832e-05,
+      "step": 0
+    },
+    {
+      "pair": "hook_obj3_1_cap_collision | table_collision",
+      "penetration_m": 7.163005304999803e-05,
+      "step": 8
+    },
+    {
+      "pair": "hook_obj4_1_beam_collision_05 | table_collision",
+      "penetration_m": 5.755647896354965e-05,
+      "step": 555
+    },
+    {
+      "pair": "hook_obj1_1_beam_collision_00 | table_collision",
+      "penetration_m": 5.556481838664418e-05,
+      "step": 1170
+    },
+    {
+      "pair": "hook_obj4_1_beam_collision_43 | table_collision",
+      "penetration_m": 5.468526517005135e-05,
+      "step": 526
+    },
+    {
+      "pair": "hook_shell1_1_cell_15_collision_006 | preset_1_1_beam_collision_50",
+      "penetration_m": 5.1199722581463694e-05,
+      "step": 948
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_target_left_tooth_collision_008",
+      "penetration_m": 4.829817112838914e-05,
+      "step": 1911
+    },
+    {
+      "pair": "hook_obj2_1_beam_collision_05 | table_collision",
+      "penetration_m": 4.5344436566896476e-05,
+      "step": 197
+    },
+    {
+      "pair": "hook_obj2_1_beam_collision_43 | table_collision",
+      "penetration_m": 4.222794552621867e-05,
+      "step": 636
+    },
+    {
+      "pair": "hook_obj1_1_beam_collision_03 | table_collision",
+      "penetration_m": 4.2042677112053006e-05,
+      "step": 41
+    },
+    {
+      "pair": "hook_shell1_1_cell_15_collision_006 | preset_1_1_cap_collision",
+      "penetration_m": 3.0381343295191925e-05,
+      "step": 0
+    },
+    {
+      "pair": "hook_shell1_1_cell_04_collision_006 | preset_1_0_cap_collision",
+      "penetration_m": 2.9223135644428918e-05,
+      "step": 2215
+    }
+  ],
+  "code_sha256": {
+    "grasp_part.py": "bc34e608006068151f2e83e415903b39e345186912663dd9de678d91d2d505cd",
+    "randomize_scene.py": "96c6229b2d422284078c4fc127fa70aa3b3605f11fc3b2463588453e120cbbfd",
+    "randomize_scene_base.py": "fcdd63cbf9708f77908ac6b4189332c2c2c5b4d88caeb363b9cd72524be15930",
+    "perceive_parts.py": "6da62d048dbbd1dd37d8ecf06c7bf69aabb8fd29236e28b331701b56e05990e3",
+    "perceive_parts_base.py": "d81b50d1e7365e5fae94fef1bd8ad55fb6afe2fa48c00eea07be2641bd13e20d",
+    "face_rack.py": "45b745d8cdc6044775c4bcdbcb6150b7e78ec668609e8191adc3dcec039027ab",
+    "occupied_scene.py": "32ad1883bc2f00e072159e492348da857fb168ec2cef68d89750f7e95249358e",
+    "kinematic_screen.py": "01deca6c9b7c5b1945e0dd82601768f005c80d65d3fad69c1b90313fb2a33af1",
+    "joint_motion.py": "d3efa85516da3a1c8ca6b188c147ffe7745b2669ee8bccd765e239e8ff38dd37",
+    "hang_part.py": "185db6b3ee0ce66043e3bff547b85097ed99b6eb65966cd43fd754942b8a1baa",
+    "hanging_references.json": "f854fd9a05ab670433b95fc5d4b1005f1da86d562433524bc8902b11cfdaf03c"
+  },
+  "method": "recorded qpos/qvel -> independent MjData -> mj_forward, no integration or pose repair"
+}

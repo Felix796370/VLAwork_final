@@ -1,0 +1,26 @@
+(define (problem Hook_Rack_Manipulation)
+  (:domain robosuite)
+  (:language Pick up the medium T-profile stainless steel part and hang it by its round end on the middle rack)
+  (:regions)
+  (:fixtures
+    main_table - table
+    hook_wall_1 - hook_wall
+    hook_shell1_1 - hook_shell_1
+    hook_shell2_1 - hook_shell_2
+    hook_shell3_1 - hook_shell_3
+  )
+  (:objects
+    hook_obj1_1 - hook_obj_1
+    hook_obj2_1 - hook_obj_2
+    hook_obj3_1 - hook_obj_3
+    hook_obj4_1 - hook_obj_4
+  )
+  (:obj_of_interest
+    hook_obj3_1
+    hook_shell2_1
+  )
+  (:init)
+  (:goal
+    (And (True hook_obj3_1))
+  )
+)

@@ -1,0 +1,120 @@
+{
+  "completed": [
+    {
+      "kind": "obj2",
+      "alias": "hook_obj4_1",
+      "hang": {
+        "success": true,
+        "alias": "hook_obj4_1",
+        "layer": 1,
+        "goal_m": [
+          -0.41400000000000003,
+          0.394,
+          1.6700000000000002
+        ],
+        "cap_m": [
+          -0.42039880025561827,
+          0.385774812367563,
+          1.669974372593632
+        ],
+        "valid_contact_frames": 100,
+        "frames": 100,
+        "duration_s": 5.0,
+        "upright": 0.9999999843437781,
+        "drift_m": 3.094988982418931e-08,
+        "position_error_m": 0.010421085023357785,
+        "max_penetration_m": 3.137304886776006e-05,
+        "max_linear_speed_m_s": 4.449839787390869e-06,
+        "max_angular_speed_rad_s": 0.0012785656051865503,
+        "min_cap_vertical_load_fraction": 0.9998278441252864,
+        "max_shaft_vertical_load_fraction": 0.0,
+        "gripper_released": true,
+        "free_dynamic_body": true,
+        "stage3_max_penetration_m": 0.0002934808811997053
+      },
+      "stage3_steps": 782,
+      "grasp": {
+        "success": true,
+        "kind": "obj2",
+        "visual_instance": "visual_4",
+        "candidate_count": 2,
+        "lift_height_m": 0.1786207606272765,
+        "bilateral_hold_fraction": 1.0,
+        "hold_drift_m": 0.0005874804788148036,
+        "external_support_frames": 0
+      },
+      "face": {
+        "success": true,
+        "kind": "obj2",
+        "layer": 1,
+        "selected_slot": {
+          "index": 12,
+          "position_m": [
+            -0.41000000000000003,
+            0.391,
+            1.6700000000000002
+          ],
+          "state": "empty",
+          "visible_views": [
+            "agentview",
+            "robot0_eye_in_hand"
+          ],
+          "cap_depth_points": 0,
+          "depth_evidence": {
+            "agentview": {
+              "clear_samples": 3,
+              "blocked_samples": 0
+            },
+            "robot0_eye_in_hand": {
+              "clear_samples": 3,
+              "blocked_samples": 0
+            }
+          }
+        },
+        "wrist_visible_slot_fraction": 0.96,
+        "wrist_tooth_visibility": {
+          "visible_cells": 24,
+          "total_cells": 25,
+          "fraction": 0.96
+        },
+        "wrist_in_frame_slot_fraction": 1.0,
+        "camera_target_angle_deg": 0.13270048312222904,
+        "bilateral_final_hold_fraction": 1.0,
+        "final_hold_cap_drift_m": 0.0011479978473463532,
+        "final_hold_duration_s": 3.0,
+        "stage_steps": 563,
+        "scan_count": 1,
+        "released": false,
+        "held_alias": "hook_obj4_1"
+      },
+      "placement_slot": {
+        "index": 12,
+        "position_m": [
+          -0.41000000000000003,
+          0.391,
+          1.6700000000000002
+        ],
+        "state": "empty",
+        "visible_views": [
+          "agentview",
+          "robot0_eye_in_hand"
+        ],
+        "cap_depth_points": 0,
+        "depth_evidence": {
+          "agentview": {
+            "clear_samples": 3,
+            "blocked_samples": 0
+          },
+          "robot0_eye_in_hand": {
+            "clear_samples": 3,
+            "blocked_samples": 0
+          }
+        }
+      },
+      "prompt": "Pick up one obj2 from the table, hang it by its round head in an empty slot of the top rack, release it, and return to the table overview pose.",
+      "returned_home": true
+    }
+  ],
+  "table_empty_visually_verified": false,
+  "complete": false
+}

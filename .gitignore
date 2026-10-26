@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.runtime/
+.validation/
+.deployment_backups/
+results/
+/tools/prepare_subset.py
+/tools/local_validation.py

@@ -1,0 +1,28 @@
+<mujoco model="hook_obj4">
+  <asset>
+    <material name="stainless" rgba="0.58 0.62 0.65 1" specular="0.85" shininess="0.65" reflectance="0.20"/>
+    <mesh name="hook_obj4_visual_mesh" file="meshes/hook_obj4.obj"/>
+    <mesh name="hook_obj4_collision_00" file="meshes/collision/hook_obj4_collision_00.obj"/>
+    <mesh name="hook_obj4_collision_01" file="meshes/collision/hook_obj4_collision_01.obj"/>
+    <mesh name="hook_obj4_collision_02" file="meshes/collision/hook_obj4_collision_02.obj"/>
+    <mesh name="hook_obj4_collision_03" file="meshes/collision/hook_obj4_collision_03.obj"/>
+    <mesh name="hook_obj4_collision_04" file="meshes/collision/hook_obj4_collision_04.obj"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom name="visual" type="mesh" mesh="hook_obj4_visual_mesh" material="stainless" contype="0" conaffinity="0" group="1" mass="0"/>
+        <inertial pos="0.01286935646125 0.002472619556404 -0.2416690533427" mass="1.5" fullinertia="0.05658122718731 0.05557756507328 0.002662192650298 0.00009890171357083 0.001112361943334 0.0006069992817305"/>
+        <geom name="beam_collision_00" type="mesh" mesh="hook_obj4_collision_00" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_01" type="mesh" mesh="hook_obj4_collision_01" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_02" type="mesh" mesh="hook_obj4_collision_02" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_03" type="mesh" mesh="hook_obj4_collision_03" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="cap_collision" type="mesh" mesh="hook_obj4_collision_04" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <site name="cap_center_site" pos="0 0 0" size="0.006" rgba="0.2 0.8 1 0"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.6025" size="0.002" rgba="0 0 0 0"/>
+      <site name="top_site" pos="0 0 0.0075" size="0.002" rgba="0 0 0 0"/>
+      <site name="horizontal_radius_site" pos="0.075 0.075 0" size="0.002" rgba="0 0 0 0"/>
+    </body>
+  </worldbody>
+</mujoco>

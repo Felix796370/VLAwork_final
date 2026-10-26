@@ -1,0 +1,126 @@
+<mujoco model="hook_obj2">
+  <asset>
+    <material name="stainless" rgba="0.58 0.62 0.65 1" specular="0.85" shininess="0.65" reflectance="0.20"/>
+    <mesh name="hook_obj2_visual_mesh" file="meshes/hook_obj2.obj"/>
+    <mesh name="hook_obj2_collision_00" file="meshes/collision/hook_obj2_collision_00.obj"/>
+    <mesh name="hook_obj2_collision_01" file="meshes/collision/hook_obj2_collision_01.obj"/>
+    <mesh name="hook_obj2_collision_02" file="meshes/collision/hook_obj2_collision_02.obj"/>
+    <mesh name="hook_obj2_collision_03" file="meshes/collision/hook_obj2_collision_03.obj"/>
+    <mesh name="hook_obj2_collision_04" file="meshes/collision/hook_obj2_collision_04.obj"/>
+    <mesh name="hook_obj2_collision_05" file="meshes/collision/hook_obj2_collision_05.obj"/>
+    <mesh name="hook_obj2_collision_06" file="meshes/collision/hook_obj2_collision_06.obj"/>
+    <mesh name="hook_obj2_collision_07" file="meshes/collision/hook_obj2_collision_07.obj"/>
+    <mesh name="hook_obj2_collision_08" file="meshes/collision/hook_obj2_collision_08.obj"/>
+    <mesh name="hook_obj2_collision_09" file="meshes/collision/hook_obj2_collision_09.obj"/>
+    <mesh name="hook_obj2_collision_10" file="meshes/collision/hook_obj2_collision_10.obj"/>
+    <mesh name="hook_obj2_collision_11" file="meshes/collision/hook_obj2_collision_11.obj"/>
+    <mesh name="hook_obj2_collision_12" file="meshes/collision/hook_obj2_collision_12.obj"/>
+    <mesh name="hook_obj2_collision_13" file="meshes/collision/hook_obj2_collision_13.obj"/>
+    <mesh name="hook_obj2_collision_14" file="meshes/collision/hook_obj2_collision_14.obj"/>
+    <mesh name="hook_obj2_collision_15" file="meshes/collision/hook_obj2_collision_15.obj"/>
+    <mesh name="hook_obj2_collision_16" file="meshes/collision/hook_obj2_collision_16.obj"/>
+    <mesh name="hook_obj2_collision_17" file="meshes/collision/hook_obj2_collision_17.obj"/>
+    <mesh name="hook_obj2_collision_18" file="meshes/collision/hook_obj2_collision_18.obj"/>
+    <mesh name="hook_obj2_collision_19" file="meshes/collision/hook_obj2_collision_19.obj"/>
+    <mesh name="hook_obj2_collision_20" file="meshes/collision/hook_obj2_collision_20.obj"/>
+    <mesh name="hook_obj2_collision_21" file="meshes/collision/hook_obj2_collision_21.obj"/>
+    <mesh name="hook_obj2_collision_22" file="meshes/collision/hook_obj2_collision_22.obj"/>
+    <mesh name="hook_obj2_collision_23" file="meshes/collision/hook_obj2_collision_23.obj"/>
+    <mesh name="hook_obj2_collision_24" file="meshes/collision/hook_obj2_collision_24.obj"/>
+    <mesh name="hook_obj2_collision_25" file="meshes/collision/hook_obj2_collision_25.obj"/>
+    <mesh name="hook_obj2_collision_26" file="meshes/collision/hook_obj2_collision_26.obj"/>
+    <mesh name="hook_obj2_collision_27" file="meshes/collision/hook_obj2_collision_27.obj"/>
+    <mesh name="hook_obj2_collision_28" file="meshes/collision/hook_obj2_collision_28.obj"/>
+    <mesh name="hook_obj2_collision_29" file="meshes/collision/hook_obj2_collision_29.obj"/>
+    <mesh name="hook_obj2_collision_30" file="meshes/collision/hook_obj2_collision_30.obj"/>
+    <mesh name="hook_obj2_collision_31" file="meshes/collision/hook_obj2_collision_31.obj"/>
+    <mesh name="hook_obj2_collision_32" file="meshes/collision/hook_obj2_collision_32.obj"/>
+    <mesh name="hook_obj2_collision_33" file="meshes/collision/hook_obj2_collision_33.obj"/>
+    <mesh name="hook_obj2_collision_34" file="meshes/collision/hook_obj2_collision_34.obj"/>
+    <mesh name="hook_obj2_collision_35" file="meshes/collision/hook_obj2_collision_35.obj"/>
+    <mesh name="hook_obj2_collision_36" file="meshes/collision/hook_obj2_collision_36.obj"/>
+    <mesh name="hook_obj2_collision_37" file="meshes/collision/hook_obj2_collision_37.obj"/>
+    <mesh name="hook_obj2_collision_38" file="meshes/collision/hook_obj2_collision_38.obj"/>
+    <mesh name="hook_obj2_collision_39" file="meshes/collision/hook_obj2_collision_39.obj"/>
+    <mesh name="hook_obj2_collision_40" file="meshes/collision/hook_obj2_collision_40.obj"/>
+    <mesh name="hook_obj2_collision_41" file="meshes/collision/hook_obj2_collision_41.obj"/>
+    <mesh name="hook_obj2_collision_42" file="meshes/collision/hook_obj2_collision_42.obj"/>
+    <mesh name="hook_obj2_collision_43" file="meshes/collision/hook_obj2_collision_43.obj"/>
+    <mesh name="hook_obj2_collision_44" file="meshes/collision/hook_obj2_collision_44.obj"/>
+    <mesh name="hook_obj2_collision_45" file="meshes/collision/hook_obj2_collision_45.obj"/>
+    <mesh name="hook_obj2_collision_46" file="meshes/collision/hook_obj2_collision_46.obj"/>
+    <mesh name="hook_obj2_collision_47" file="meshes/collision/hook_obj2_collision_47.obj"/>
+    <mesh name="hook_obj2_collision_48" file="meshes/collision/hook_obj2_collision_48.obj"/>
+    <mesh name="hook_obj2_collision_49" file="meshes/collision/hook_obj2_collision_49.obj"/>
+    <mesh name="hook_obj2_collision_50" file="meshes/collision/hook_obj2_collision_50.obj"/>
+    <mesh name="hook_obj2_collision_51" file="meshes/collision/hook_obj2_collision_51.obj"/>
+    <mesh name="hook_obj2_collision_52" file="meshes/collision/hook_obj2_collision_52.obj"/>
+    <mesh name="hook_obj2_collision_53" file="meshes/collision/hook_obj2_collision_53.obj"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom name="visual" type="mesh" mesh="hook_obj2_visual_mesh" material="stainless" contype="0" conaffinity="0" group="1" mass="0"/>
+        <inertial pos="-0.008744156237592 -0.00002206706468402 -0.06503314671402" mass="0.8737348327199" fullinertia="0.003008262798551 0.002906328155998 0.0005353037819680 -0.00008692502548733 0.00003935097747217 0.00003581351973877"/>
+        <geom name="beam_collision_00" type="mesh" mesh="hook_obj2_collision_00" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_01" type="mesh" mesh="hook_obj2_collision_01" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_02" type="mesh" mesh="hook_obj2_collision_02" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_03" type="mesh" mesh="hook_obj2_collision_03" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_04" type="mesh" mesh="hook_obj2_collision_04" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_05" type="mesh" mesh="hook_obj2_collision_05" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_06" type="mesh" mesh="hook_obj2_collision_06" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_07" type="mesh" mesh="hook_obj2_collision_07" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_08" type="mesh" mesh="hook_obj2_collision_08" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_09" type="mesh" mesh="hook_obj2_collision_09" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_10" type="mesh" mesh="hook_obj2_collision_10" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_11" type="mesh" mesh="hook_obj2_collision_11" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_12" type="mesh" mesh="hook_obj2_collision_12" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_13" type="mesh" mesh="hook_obj2_collision_13" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_14" type="mesh" mesh="hook_obj2_collision_14" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_15" type="mesh" mesh="hook_obj2_collision_15" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_16" type="mesh" mesh="hook_obj2_collision_16" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_17" type="mesh" mesh="hook_obj2_collision_17" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_18" type="mesh" mesh="hook_obj2_collision_18" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_19" type="mesh" mesh="hook_obj2_collision_19" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_20" type="mesh" mesh="hook_obj2_collision_20" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_21" type="mesh" mesh="hook_obj2_collision_21" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_22" type="mesh" mesh="hook_obj2_collision_22" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_23" type="mesh" mesh="hook_obj2_collision_23" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_24" type="mesh" mesh="hook_obj2_collision_24" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_25" type="mesh" mesh="hook_obj2_collision_25" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_26" type="mesh" mesh="hook_obj2_collision_26" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_27" type="mesh" mesh="hook_obj2_collision_27" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_28" type="mesh" mesh="hook_obj2_collision_28" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_29" type="mesh" mesh="hook_obj2_collision_29" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_30" type="mesh" mesh="hook_obj2_collision_30" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_31" type="mesh" mesh="hook_obj2_collision_31" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_32" type="mesh" mesh="hook_obj2_collision_32" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_33" type="mesh" mesh="hook_obj2_collision_33" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_34" type="mesh" mesh="hook_obj2_collision_34" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_35" type="mesh" mesh="hook_obj2_collision_35" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_36" type="mesh" mesh="hook_obj2_collision_36" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_37" type="mesh" mesh="hook_obj2_collision_37" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_38" type="mesh" mesh="hook_obj2_collision_38" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_39" type="mesh" mesh="hook_obj2_collision_39" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_40" type="mesh" mesh="hook_obj2_collision_40" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_41" type="mesh" mesh="hook_obj2_collision_41" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_42" type="mesh" mesh="hook_obj2_collision_42" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_43" type="mesh" mesh="hook_obj2_collision_43" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_44" type="mesh" mesh="hook_obj2_collision_44" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_45" type="mesh" mesh="hook_obj2_collision_45" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_46" type="mesh" mesh="hook_obj2_collision_46" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_47" type="mesh" mesh="hook_obj2_collision_47" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_48" type="mesh" mesh="hook_obj2_collision_48" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_49" type="mesh" mesh="hook_obj2_collision_49" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_50" type="mesh" mesh="hook_obj2_collision_50" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_51" type="mesh" mesh="hook_obj2_collision_51" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="beam_collision_52" type="mesh" mesh="hook_obj2_collision_52" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <geom name="cap_collision" type="mesh" mesh="hook_obj2_collision_53" rgba="0.55 0.60 0.63 0.18" group="0" mass="0" friction="0.70 0.01 0.001" condim="4" solref="0.01 1" solimp="0.95 0.99 0.001"/>
+        <site name="cap_center_site" pos="0 0 0" size="0.006" rgba="0.2 0.8 1 0"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.139" size="0.002" rgba="0 0 0 0"/>
+      <site name="top_site" pos="0 0 0.006" size="0.002" rgba="0 0 0 0"/>
+      <site name="horizontal_radius_site" pos="0.050 0.050 0" size="0.002" rgba="0 0 0 0"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,14 @@
+{
+  "scene_initialized": true,
+  "two_camera_RGBD_perception": true,
+  "visual_kinds": [
+    "obj1",
+    "obj3",
+    "obj3",
+    "obj1"
+  ],
+  "original_new_folder_access_forbidden": true,
+  "model_nq": 51,
+  "additional_full_hanging_replay": false,
+  "render_backend": "glfw"
+}

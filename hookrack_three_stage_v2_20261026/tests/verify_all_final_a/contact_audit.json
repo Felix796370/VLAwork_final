@@ -1,0 +1,173 @@
+{
+  "accepted": true,
+  "sampled_frames": 10289,
+  "sampling_hz": 20,
+  "include_zero_force_contacts": true,
+  "max_penetration_m": 0.0004264505521432267,
+  "worst_pairs": [
+    {
+      "pair": "gripper0_finger2_pad_collision | hook_obj1_1_beam_collision_00",
+      "penetration_m": 0.0004264505521432267,
+      "step": 527
+    },
+    {
+      "pair": "gripper0_finger2_collision | hook_obj2_1_beam_collision_27",
+      "penetration_m": 0.0003211392120941322,
+      "step": 4051
+    },
+    {
+      "pair": "gripper0_finger1_collision | hook_obj2_1_beam_collision_30",
+      "penetration_m": 0.0002697385595050877,
+      "step": 4060
+    },
+    {
+      "pair": "gripper0_finger1_collision | hook_obj2_1_beam_collision_28",
+      "penetration_m": 0.0002601042811291584,
+      "step": 4060
+    },
+    {
+      "pair": "gripper0_finger2_pad_collision | hook_obj4_1_beam_collision_00",
+      "penetration_m": 0.00022105863863338893,
+      "step": 8429
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj1_1_beam_collision_00",
+      "penetration_m": 0.0002036786408684007,
+      "step": 1299
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj4_1_beam_collision_00",
+      "penetration_m": 0.00020065754946749426,
+      "step": 9440
+    },
+    {
+      "pair": "hook_obj2_1_cap_collision | hook_shell2_1_cell_14_collision_006",
+      "penetration_m": 0.00018734949723760283,
+      "step": 4771
+    },
+    {
+      "pair": "hook_obj3_1_cap_collision | hook_shell2_1_cell_18_collision_006",
+      "penetration_m": 0.0001848945053834372,
+      "step": 7479
+    },
+    {
+      "pair": "hook_obj3_1_cap_collision | hook_shell2_1_cell_19_collision_006",
+      "penetration_m": 0.00017310904434997333,
+      "step": 7482
+    },
+    {
+      "pair": "hook_obj2_1_cap_collision | hook_shell2_1_target_left_tooth_collision_006",
+      "penetration_m": 0.00016149106167245863,
+      "step": 4774
+    },
+    {
+      "pair": "hook_obj1_1_cap_collision | table_collision",
+      "penetration_m": 0.00014965966576829803,
+      "step": 528
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_cell_10_collision_006",
+      "penetration_m": 0.00014810615513833906,
+      "step": 9746
+    },
+    {
+      "pair": "hook_obj1_1_cap_collision | hook_shell1_1_target_right_tooth_collision_006",
+      "penetration_m": 0.00014372683418284357,
+      "step": 2169
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | table_collision",
+      "penetration_m": 0.00011877255755998739,
+      "step": 8380
+    },
+    {
+      "pair": "gripper0_finger2_pad_collision | hook_obj2_1_beam_collision_27",
+      "penetration_m": 0.00011589458976609106,
+      "step": 3510
+    },
+    {
+      "pair": "hook_obj2_1_beam_collision_09 | table_collision",
+      "penetration_m": 0.00010848636508176135,
+      "step": 3076
+    },
+    {
+      "pair": "hook_obj1_1_cap_collision | hook_shell1_1_target_left_tooth_collision_006",
+      "penetration_m": 0.00010490237371063181,
+      "step": 2170
+    },
+    {
+      "pair": "hook_obj2_1_beam_collision_10 | table_collision",
+      "penetration_m": 9.877939716695927e-05,
+      "step": 3076
+    },
+    {
+      "pair": "hook_obj3_1_cap_collision | hook_shell2_1_cell_19_collision_007",
+      "penetration_m": 9.631304812127182e-05,
+      "step": 7487
+    },
+    {
+      "pair": "hook_obj4_1_cap_collision | hook_shell1_1_cell_09_collision_006",
+      "penetration_m": 9.144115864605569e-05,
+      "step": 9748
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj2_1_beam_collision_28",
+      "penetration_m": 8.658768405767788e-05,
+      "step": 4024
+    },
+    {
+      "pair": "gripper0_finger2_pad_collision | hook_obj3_1_beam_collision_27",
+      "penetration_m": 8.629251529219843e-05,
+      "step": 6967
+    },
+    {
+      "pair": "hook_obj3_1_cap_collision | hook_shell2_1_cell_18_collision_007",
+      "penetration_m": 8.606373744934892e-05,
+      "step": 7485
+    },
+    {
+      "pair": "hook_shell1_1_cell_14_collision_006 | preset_1_1_beam_collision_45",
+      "penetration_m": 8.537406599034832e-05,
+      "step": 0
+    },
+    {
+      "pair": "hook_obj3_1_cap_collision | hook_shell2_1_cell_18_collision_008",
+      "penetration_m": 8.165828509259245e-05,
+      "step": 7485
+    },
+    {
+      "pair": "hook_obj3_1_cap_collision | table_collision",
+      "penetration_m": 8.072935436809203e-05,
+      "step": 5771
+    },
+    {
+      "pair": "gripper0_finger1_pad_collision | hook_obj3_1_beam_collision_30",
+      "penetration_m": 7.762091606152176e-05,
+      "step": 6304
+    },
+    {
+      "pair": "hook_obj3_1_beam_collision_09 | table_collision",
+      "penetration_m": 7.515721098583228e-05,
+      "step": 5769
+    },
+    {
+      "pair": "hook_obj2_1_cap_collision | table_collision",
+      "penetration_m": 7.492963375521634e-05,
+      "step": 3107
+    }
+  ],
+  "code_sha256": {
+    "grasp_part.py": "bc34e608006068151f2e83e415903b39e345186912663dd9de678d91d2d505cd",
+    "randomize_scene.py": "96c6229b2d422284078c4fc127fa70aa3b3605f11fc3b2463588453e120cbbfd",
+    "randomize_scene_base.py": "fcdd63cbf9708f77908ac6b4189332c2c2c5b4d88caeb363b9cd72524be15930",
+    "perceive_parts.py": "6da62d048dbbd1dd37d8ecf06c7bf69aabb8fd29236e28b331701b56e05990e3",
+    "perceive_parts_base.py": "d81b50d1e7365e5fae94fef1bd8ad55fb6afe2fa48c00eea07be2641bd13e20d",
+    "face_rack.py": "45b745d8cdc6044775c4bcdbcb6150b7e78ec668609e8191adc3dcec039027ab",
+    "occupied_scene.py": "32ad1883bc2f00e072159e492348da857fb168ec2cef68d89750f7e95249358e",
+    "kinematic_screen.py": "01deca6c9b7c5b1945e0dd82601768f005c80d65d3fad69c1b90313fb2a33af1",
+    "joint_motion.py": "d3efa85516da3a1c8ca6b188c147ffe7745b2669ee8bccd765e239e8ff38dd37",
+    "hang_part.py": "185db6b3ee0ce66043e3bff547b85097ed99b6eb65966cd43fd754942b8a1baa",
+    "hanging_references.json": "f854fd9a05ab670433b95fc5d4b1005f1da86d562433524bc8902b11cfdaf03c"
+  },
+  "method": "recorded qpos/qvel -> independent MjData -> mj_forward, no integration or pose repair"
+}
